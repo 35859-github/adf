@@ -1,0 +1,404 @@
+{
+	"name": "ds_DI_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "EDMAVMNEW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "CSCTTEC",
+				"type": "varchar"
+			},
+			{
+				"name": "NCMPDBI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NCMPCRD",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UMNTECI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DCTENOU",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AIDNPARBURSRVCTEGST",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DCREECI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DTRTECI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DECHPRI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CTYPQTC",
+				"type": "varchar"
+			},
+			{
+				"name": "DPISCUSCON",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NNUMCON",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UFRSGSTREE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UFRSGSTTHE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PREDPRICMR",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UBSECOMMAX",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CETAAVIDMC",
+				"type": "varchar"
+			},
+			{
+				"name": "AIDNPARBURLOBCLI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UCOMTHE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UCOMREE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CTYPPRO",
+				"type": "varchar"
+			},
+			{
+				"name": "AIDNPARBURINMGST",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NAVE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CPEDPRI",
+				"type": "varchar"
+			},
+			{
+				"name": "AIDNPARBURAGTCNTCLI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AIDNPARBURCHRREL",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CMTFREL",
+				"type": "varchar"
+			},
+			{
+				"name": "AIDNPARBURAGTCNTCLIIPS",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CLOB",
+				"type": "varchar"
+			},
+			{
+				"name": "CSRVLVL",
+				"type": "varchar"
+			},
+			{
+				"name": "AIDNPARBURAGTINMPBA",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AIDNPARBURPSOINMPBA",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CEVECTE",
+				"type": "varchar"
+			},
+			{
+				"name": "CPRD",
+				"type": "varchar"
+			},
+			{
+				"name": "CENTCTE",
+				"type": "varchar"
+			},
+			{
+				"name": "DCLCSIN",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CMDERMB",
+				"type": "varchar"
+			},
+			{
+				"name": "DCTE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AIDNPARBURCTECEP",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AIDNPARBURCTECRE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AIDNPARBURSRVREF",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CFDS",
+				"type": "varchar"
+			},
+			{
+				"name": "LATHCRE",
+				"type": "varchar"
+			},
+			{
+				"name": "CORIECI",
+				"type": "varchar"
+			},
+			{
+				"name": "NSIN",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CCLCCOMANN",
+				"type": "varchar"
+			},
+			{
+				"name": "CCDICTE",
+				"type": "varchar"
+			},
+			{
+				"name": "CCATCTECON",
+				"type": "varchar"
+			},
+			{
+				"name": "CCOMRNU",
+				"type": "varchar"
+			},
+			{
+				"name": "CMDEPAI",
+				"type": "varchar"
+			},
+			{
+				"name": "CTYPAFT",
+				"type": "varchar"
+			},
+			{
+				"name": "LUIDDRNMOD",
+				"type": "varchar"
+			},
+			{
+				"name": "DCRE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DEFFCON",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DDRNMAJGST",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NACFCTE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DDRNMAJTABJOB",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DTRMCON",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UCOMANN",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UCOMSUP",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "RCOMSUP",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UMVTBRU",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UPRISANFRS",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LCUACNTPBMPAI",
+				"type": "varchar"
+			},
+			{
+				"name": "LJOBDRNMAJ",
+				"type": "varchar"
+			},
+			{
+				"name": "DDRNMAJ",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DCREEVECTE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CTYPDRNMOD",
+				"type": "varchar"
+			},
+			{
+				"name": "CTYPCLEECICTE",
+				"type": "varchar"
+			},
+			{
+				"name": "AIDNEXNFAG",
+				"type": "varchar"
+			},
+			{
+				"name": "USLDCMPDBIAPSMVT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "USLDCMPCRDAPSMVT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LKEYLBE",
+				"type": "varchar"
+			},
+			{
+				"name": "CFDSCTE",
+				"type": "varchar"
+			},
+			{
+				"name": "CPRDCTE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CMDEENC",
+				"type": "varchar"
+			},
+			{
+				"name": "DORIDEV",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "COPECTE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CORIDEV",
+				"type": "varchar"
+			},
+			{
+				"name": "UMNTORIDEV",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CENVCTEGEN",
+				"type": "varchar"
+			},
+			{
+				"name": "LENVCTEGEN",
+				"type": "varchar"
+			},
+			{
+				"name": "DNUMLOT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CECICTE",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SASsrc_JSDI8DWHTLIFMVTCTECON"
+		}
+	}
+}
